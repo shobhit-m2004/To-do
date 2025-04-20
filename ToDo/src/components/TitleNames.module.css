@@ -1,0 +1,101 @@
+.emoji{
+    margin-left:30px;
+    margin-top: 30px;
+
+    height: 200px;
+    width: auto;
+
+}
+.emojiHeading{
+    margin-left: 10px; ;
+    display: flex;
+}
+.Heading {
+    margin-left: 100px;
+    margin-top: 70px;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive; /* Apply Comic Sans */
+    background: linear-gradient(90deg, red, orange, pink, green, blue, indigo, violet); /* Gradient colors */
+    background-clip: text; 
+    -webkit-background-clip: text; /* Clips the gradient to the text */
+    -webkit-text-fill-color: transparent; /* Makes the text transparent to show the gradient */
+}
+
+/* Base styles */
+.emojiHeading {
+    font-size: 1.25rem;
+  }
+  /* iphone se */
+  @media (max-width: 900px) {
+    .emoji {
+        margin-top: 50px;
+        /* display: block; */
+        margin: 3px auto 0 auto; /* top: 3px, auto horizontal */
+        height: 100px;
+        width: 100px;
+    }
+
+    .emoji img {
+        margin-top: 50px;
+        width: 50px;
+        height: 50px;
+        display: block;
+        margin: 0 auto; /* Center the image horizontally */
+    }
+
+    .Heading {
+        display: flex;
+        justify-content: center;
+        margin-left: 10px;
+        margin-top: 7px;
+        font-size: 40px;
+    }
+
+    .emojiHeading {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+}
+
+  /* for ipad air */
+  @media (min-width: 768px) and (max-width: 1400px) {
+    .emoji {
+        margin-top: 20px;
+        height: 300px;
+        width: 300px;
+    }
+
+    .emoji img {
+        width: 50px;
+        height: 50px;
+        display: block;
+        margin: 0 auto; /* Center the image horizontally */
+    }
+
+    .Heading {
+        display: flex;
+        justify-content: center;
+        margin-left: 10px;
+        margin-top: 80px;
+        font-size: 80px;
+        text-align: center;
+    }
+
+    .emojiHeading {
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+    }
+}
+
+
+
+
+  @media (min-width: 1200px) {
+    .emojiHeading {
+      font-size: 3px;
+    }
+  }
+  

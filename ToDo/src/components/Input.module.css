@@ -1,0 +1,35 @@
+.input{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 900px) {
+    .input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+    }
+   
+}
+
+  /* for ipad air */
+  @media (min-width: 768px) and (max-width: 1400px) {
+    .input{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+   
+  }
+
+
+
+
+  @media (min-width: 1200px) {
+  }
+  
